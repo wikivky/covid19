@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description"
+	  content="This website all about recent covid trends and update, here you can enroll for sars-cov2 Vaccination program.">
+	<meta name="robots" content="index, follow" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+	<title>Welcome To Registration Form</title>
+	<link rel="stylesheet" href="jqueryui/jquery-ui.css/">
+	<link rel="stylesheet" href="jqueryui/jquery-ui.structure.css/" <link rel="stylesheet">
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+	<body
+		style="background:url(https://www.newsnationnow.com/wp-content/uploads/sites/108/2020/08/GettyImages-1215003611.jpg)"" alink="
+		#017bf5" vlink="#000">
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Registration Page</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="home.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " aria-current="page" href="https://www.covid19india.org/"
+								target="_blank">Covid in India </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link"
+								href="https://ncdc.gov.in/index1.php?lang=1&level=1&sublinkid=703&lid=550"
+								target="_blank">Guidelines</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link"
+								href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/covid-19-vaccines"
+								target="_blank">Vaccines Update</a>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Vaccines
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item"
+										href="https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-announce-vaccine-candidate-against"
+										target="_blank">BNT162 SARS-CoV-2</a></li>
+								<li><a class="dropdown-item"
+										href="https://ir.novavax.com/news-releases/news-release-details/novavax-announces-covid-19-vaccine-manufacturing-agreement-serum"
+										target="_blank">Novavax/Serum Institute of India</a></li>
+								<li><a class="dropdown-item" href="https://www.bharatbiotech.com/covaxin.html"
+										target="_blank">Covaxin/Bharat Biotech</a></li>
+								<li><a class="dropdown-item"
+										href="https://www.clinicaltrialsarena.com/news/dr-reddys-rdif-sputnik/"
+										target="_blank">Sputnik V/Dr Reddy’s</a></li>
+								<li><a class="dropdown-item"
+										href="https://zyduscadila.com/public/pdf/pressrelease/Press-Release-ZyCoV-D.pdf"
+										target="_blank">ZyCov-d/Zydus Cadila</a></li>
+								<li><a class="dropdown-item"
+										href="https://www.genome.gov/genetics-glossary/messenger-rna"
+										target="_blank">mRNA</a></li>
+
+
+
+
+							</ul>
+						</li>
+
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+
+
+
+
+
+		<div class="h-tag">
+			<center style="color:red">
+				<h1>Interested in volunteering for COVID-19 Prevention Clinical Study?
+			</center>
+			</h1>
+			<p> <b style="font-size: large;color: black">The purpose of this screening registry is to create a list
+					of potential volunteers who want to take part in current or future COVID-19 prevention clinical
+					trials. You must be 18 years or older to participate. Participation involves completing a short
+					online survey that includes some personal questions. Your participation is voluntary.</b></p>
+			<center style="color:darkgreen;">
+				<h2>Enrollment form for COVID19 Vaccination</h2>
+			</center>
+		</div>
+		<div class="login">
+			<table cellspacing="2" align="center" cellpadding="8" border="0">
+				<tr>
+					<td align="right">Enter Patient Name :</td>
+
+					<td><input type="text" placeholder="Enter Full Name Here" id="t1" class="tb"
+							onfocus="clearerror();" />
+
+						<div class="danger" style="color:red; display:none" id="name_error">This Field is Required.
+						</div>
+					</td>
+
+				</tr>
+				<tr>
+					<td align="right">Enter Email ID :</td>
+					<td><input type="text" placeholder="Enter Email ID Here" id="t2" class="tb"
+							onfocus="clearerror();" />
+						<div class="danger" style="color:red; display:none" id="email_error">This Field is Required.
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" class="tb" onfocus="clearerror();">Gender : </td>
+					<td><input type="radio" id="t3" name="gender" value="male"> Male<br>
+						<input type="radio" id="t7" name="gender" value="female"> Female<br>
+						<input type="radio" id="t8" name="gender" value="other"> Other
+						<div class="danger" style="color:red; display:none" id="gender_error">This Field is Required.
+						</div>
+					</td>
+				</tr>
+				<td align="right">Date of Birth :</td>
+				<td><input type="text" placeholder="Enter in DD/MM/YYYY" id="t6" class="tb"
+						onfocus="clearerror();" />
+					<div class="danger" style="color:red; display:none" id="dob_error">This Field is Required. </div>
+				</td>
+				</tr>
+				<td align="right">Phone Number :</td>
+				<td><input type="text" placeholder="Enter Phone No. Here" id="t4" class="tb" onfocus="clearerror();" />
+					<div class="danger" style="color:red; display:none" id="phone_error">This Field is Required. </div>
+				</td>
+				</tr>
+				<tr>
+					<td align="right">Aadhar Card Number :</td>
+					<td><input type="text" placeholder="Enter Aadhar No. Here" id="t5" class="tb"
+							onfocus="clearerror();" />
+						<div class="danger" style="color:red; display:none" id="aadhar_error">This Field is Required.
+						</div>
+					</td>
+				</tr>
+				<tr>
+
+
+
+				<tr>
+
+					<td align="right" id="t7" class="tb" onfocus="clearerror();">Have you any diseases? : </td>
+					<td><input type="radio" name="disease1" value="hypertension"> Hypertension<br>
+						<input type="radio" name="disease2" value="heartdisease"> Heart disease<br>
+						<input type="radio" name="disease3" value="diabetes"> diabetes<br>
+						<input type="radio" name="disease4" value="lungs"> Lungs disease<br>
+						<input type="radio" name="disease5" value="kidney"> Kidney Disorder<br>
+						<input type="radio" name="disease" value="nota"> None of these
+						<div class="danger" style="color:red; display:none" id="aadhar_error">This Field is Required.
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" onfocus="clearerror();"> </td>
+					<td>
+						<div class="form_container">
+							<form action="#" id="my_captcha_form">
+								<div class="danger" style="color:red; display:none" id="humanerror">Please verify you
+									are humann! </div>
+								<div class="g-recaptcha" data-sitekey="6LfrFKQUAAAAAMzFobDZ7ZWy982lDxeps8cd1I2i">
+
+								</div>
+							</form>
+						</div>
+
+
+					</td>
+				</tr>
+				<td></td>
+				<td>
+					<input style="color:white" type="submit" value="Click to Enroll" class="btn btn-outline-success"
+						onclick="registration()" />
+				</td>
+				</tr>
+			</table>
+		</div>
+
+
+
+
+		<div class="navbar navbar-inverse navbar-fixed-bottom">
+			      <div class="container">
+				        <p class="navbar-text"><b style="color:red">©2020-2021 wikivky| AllRightsReserved</b> </p>
+				      </div>
+			    </div>
+	</body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+		integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+
+	<script src="/new.js">
+	</script>
+
+</html>
